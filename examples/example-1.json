@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "quantity": 2,
+      "price": 12.49,
+      "category": "book",
+      "description": "book"
+    },
+    {
+      "quantity": 1,
+      "price": 14.99,
+      "category": "cd",
+      "description": "music CD"
+    },
+    {
+      "quantity": 1,
+      "price": 0.85,
+      "category": "food",
+      "description": "chocolate bar"
+    }
+  ]
+}

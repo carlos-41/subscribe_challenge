@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "quantity": 1,
+      "price": 27.99,
+      "category": "perfume",
+      "description": "imported bottle of perfume"
+    },
+    {
+      "quantity": 1,
+      "price": 18.99,
+      "category": "perfume",
+      "description": "bottle of perfume"
+    },
+    {
+      "quantity": 1,
+      "price": 9.75,
+      "category": "medical",
+      "description": "packet of headache pills"
+    },
+    {
+      "quantity": 3,
+      "price": 11.25,
+      "category": "food",
+      "description": "imported boxes of chocolates"
+    }
+  ]
+}
