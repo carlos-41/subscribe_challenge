@@ -38,18 +38,18 @@ class Item
 
     # Check category to calculate %10
     unless EXEMPT_CATEGORIES.include? @category
-      taxes = taxes + @subtotal * 0.1
+      taxes = taxes + @price * 0.1
     end
 
     # Check if its imported to calculate %5
     if imported?
-      taxes = taxes + @subtotal * 0.05
+      taxes = taxes + @price * 0.05
     end
 
-    round_to_nearest(taxes)
+    round_to_nearest(taxes) * @quantity
   end
 
   def round_to_nearest(taxes)
-    (taxes * 20).round / 20.0
+    (taxes * 20).ceil / 20.0
   end
 end
